@@ -9,7 +9,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.FYP.AppBarOverlay">
+        android:theme="@style/Theme.Coinify.AppBarOverlay">
 
         <TextView
             android:id="@+id/title"
@@ -27,13 +27,15 @@
             android:layout_height="wrap_content"
             android:background="?attr/colorPrimary"
             app:tabSelectedTextColor="@android:color/white"
-            app:tabTextColor="@android:color/black" />
+            app:tabTextColor="@android:color/black"
+            tools:ignore="SpeakableTextPresentCheck" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

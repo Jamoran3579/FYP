@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">FYP</string>
+    <string name="app_name">Coinify</string>
     <string name="tab_text_1">Camera</string>
     <string name="tab_text_2">Results</string>
     <string name="tab_text_3">Storage</string>
+    <string name="feature_coming_soon">Feature Coming Soon!!</string>
 </resources>
